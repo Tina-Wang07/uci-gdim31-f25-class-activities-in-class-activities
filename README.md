@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+When I remove the camera from cat, the camera will not follow the cat when game playing. Because after moving out, the Camera becomes an independent object.
+https://qingw7.itch.io/week1
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
