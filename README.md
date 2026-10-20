@@ -23,6 +23,12 @@ I think the relationship between "class" and "component" is similar to that betw
 Activity 3:
 This is because each time there is a collision, the code multiplies the color value by a multiplier based on the speed of the ball. The ball then keeps accelerating with each collision. The more collisions there are, the more the color accumulates, so in the end, it will appear very bright.
 
+### W4
+1. I think Cat and SoccerBall need Rigidbody. Only Goal need "is Trigger."
+2. I let the collider activity just cover the Cat. Because this can let Cat not "fly" and hit the SoccerBall. I add Ridigbody to Cat and SoccerBall and I check Is Trigger on Coal.
+3. I recheck the code of "_timeText", but I didn't find where is wrong. And I also check the Capsule Collider because my Cat is flying, and I change the collider. I think the most important thing I need to check first is code.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
