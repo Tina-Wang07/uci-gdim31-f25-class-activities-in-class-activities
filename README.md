@@ -29,6 +29,11 @@ This is because each time there is a collision, the code multiplies the color va
 3. I recheck the code of "_timeText", but I didn't find where is wrong. And I also check the Capsule Collider because my Cat is flying, and I change the collider. I think the most important thing I need to check first is code.
 
 
+### W6
+1. One is Transform-type target, and another is a NavMeshAgent.
+2. This class need to use Unity's Start() method because we only need to set the deer's destination once at the beginning of the game.
+3. In the Start() function, first use GetComponent<NavMeshAgent>() to obtain the NavMeshAgent on the Deer GameObject. Then, let this NavMeshAgent set the position of the target as the destination. In this way, the deer will automatically move towards the destination specified in the Inspector.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
