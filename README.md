@@ -37,7 +37,6 @@ This is because each time there is a collision, the code multiplies the color va
 
 ### W7
 Activity1: I finished Unity Engine and Unity Coding. https://docs.google.com/document/d/14FCrpMpAOE2QP1yT5UPCaBEYXaUTrDWGMuJivwHKa4Q/edit?usp=sharing
-Activity2: 
 1. A _speed variable is needed to control the movement speed of the bat, and this variable should be adjustable in the Inspector. Additionally, a Transform type variable is required to store the position of the player, which is the Cat.
 2. We need Update(), and LateUpdate(). And We need to write EnableChase() 和 DisableChase().
 3. EnableChase() used to make the bats start chasing the player, and record the player's transform. DisableChase() used to stop chasing player. The Update() function runs in every frame and uses Vector3.MoveTowards() to make the bat move towards the player's position.
