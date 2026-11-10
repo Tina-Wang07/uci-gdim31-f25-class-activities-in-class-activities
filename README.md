@@ -35,7 +35,7 @@ This is because each time there is a collision, the code multiplies the color va
 3. In the Start() function, first use GetComponent<NavMeshAgent>() to obtain the NavMeshAgent on the Deer GameObject. Then, let this NavMeshAgent set the position of the target as the destination. In this way, the deer will automatically move towards the destination specified in the Inspector.
 
 
-###W7
+### W7
 Activity1: I finished Unity Engine and Unity Coding. https://docs.google.com/document/d/14FCrpMpAOE2QP1yT5UPCaBEYXaUTrDWGMuJivwHKa4Q/edit?usp=sharing
 Activity2: 
 1. A _speed variable is needed to control the movement speed of the bat, and this variable should be adjustable in the Inspector. Additionally, a Transform type variable is required to store the position of the player, which is the Cat.
