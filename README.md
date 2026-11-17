@@ -41,6 +41,10 @@ Activity1: I finished Unity Engine and Unity Coding. https://docs.google.com/doc
 2. We need Update(), and LateUpdate(). And We need to write EnableChase() 和 DisableChase().
 3. EnableChase() used to make the bats start chasing the player, and record the player's transform. DisableChase() used to stop chasing player. The Update() function runs in every frame and uses Vector3.MoveTowards() to make the bat move towards the player's position.
 
+
+### W7
+In Step 2, the movement was using the wrong coordinate space. After changing it, the Muskrat could move based on the direction it was facing. I also added movement on the bubble and set the animations to idle, running, and flying.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
